@@ -38,6 +38,10 @@ public class ItemPresentation {
 		} while (choice != 0);
 		
 		
+		
+		
+		
+		
 	}
 
 	private void addItem(int itemNo) {
@@ -57,6 +61,10 @@ public class ItemPresentation {
 		else if(itemStatus.getStatusCode() == 1)
 			CUI.display("item details added");
 		
+		
+		
+		
+		
 	}
 
 	private void getItemsLessThanPrice() {
@@ -75,6 +83,9 @@ public class ItemPresentation {
 			}
 			
 		}
+
+		
+		
 		
 	}
 
@@ -154,8 +165,27 @@ public class ItemPresentation {
 						else if(choice ==3 )
 								getAllItems();
 					} while (choice != 0);
+				
+				
+			
 			
 		}
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
